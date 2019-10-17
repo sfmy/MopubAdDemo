@@ -1,0 +1,5 @@
+//rootProject.name = 'mopubmytest'
+include ':app'
+//,':mopub-sdk-base', ':mopub-sdk-banner', ':mopub-sdk-interstitial', ':mopub-sdk-rewardedvideo', ':mopub-sdk-native-static', ':mopub-sdk-native-video'
+//,':mopub-sdk'
+

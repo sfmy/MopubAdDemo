@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="插屏 广告"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/adunitid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="广告ID:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/loadAD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="@color/coloFaintYellow"
+            android:text="加载广告"/>
+
+        <TextView
+            android:id="@+id/playAD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:background="@color/coloFaintYellow"
+            android:text="播放广告"/>
+    </LinearLayout>
+
+</LinearLayout>
